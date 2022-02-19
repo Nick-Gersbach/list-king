@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+button {
+  cursor: pointer;
+}
+
+header {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+header .logo img {
+  width: 75px;
+}
+
+/* 
+
+
+
+
+Grocerie List
+
+
+
+
+*/
+
+#groceries-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+#groceries-list ul {
+  margin-top: 0.5rem;
+}
+.li-styling {
+  margin-top: 1rem;
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 10px;
+  width: 320px;
+  font-size: 20px;
+  font-weight: 700;
+  position: relative;
+}
+
+.fa-square-check {
+  color: #36a33e;
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+
+.fa-trash-can {
+  padding-left: 5px;
+  color: #fc2c03;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+/* 
+
+
+
+
+Add Groceries
+
+
+
+
+*/
+
+#add-groceries {
+  margin-top: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#add-groceries .add-item {
+  margin-top: 1rem;
+}
+#add-groceries .add-item input {
+  margin-bottom: 1.5rem;
+  padding: 10px;
+  width: 320px;
+  font-size: 20px;
+}
+
+#add-groceries .grocerie-buttons button {
+  padding: 15px;
+  width: 120px;
+  margin: 0px 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+#add-item-btn {
+  background: #36a33e;
+  color: white;
+}
+
+#delete-all-btn {
+  background: #fc2c03;
+  color: white;
+}
